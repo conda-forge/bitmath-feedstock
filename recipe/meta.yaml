@@ -1,5 +1,5 @@
 {% set name = "bitmath" %}
-{% set version = "1.4.0.1" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bitmath-{{ version }}.tar.gz
-  sha256: 7e64a1e7161887e254dbb910942e265fe840a4cf0cede4e29a1da9754b7334e8
+  sha256: ce59a9a27dab22fcb9f996d2f65d9416ad6a07aff6a78fdf3bdbfc5b40e9a06e
 
 build:
   entry_points:
